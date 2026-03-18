@@ -208,7 +208,7 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 vim.keymap.set('n', '<leader>|', '<C-w>v', { desc = 'Split window vertically' })
 
 -- Open neo-tree file explorer
-vim.keymap.set('n', '<leader>e', ':Neotree filesystem reveal left <CR>', { desc = 'Open neo-tree file explorer' })
+vim.keymap.set('n', '<leader>e', ':Neotree toggle <CR>', { desc = 'Open neo-tree file explorer' })
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
 --
