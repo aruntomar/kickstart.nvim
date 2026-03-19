@@ -206,6 +206,8 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 
 -- Split windows vertically
 vim.keymap.set('n', '<leader>|', '<C-w>v', { desc = 'Split window vertically' })
+vim.keymap.set('n', '<leader>\\', '<C-w>s', { desc = 'Split window horizontally' })
+vim.keymap.set('n', '<leader>Q', ':quitall <CR>', { desc = 'Quit Neovim' })
 
 -- Open neo-tree file explorer
 vim.keymap.set('n', '<leader>e', ':Neotree toggle <CR>', { desc = 'Open neo-tree file explorer' })
